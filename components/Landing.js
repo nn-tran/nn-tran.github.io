@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import userData from "@constants/data";
 import { Title,Body } from "./Elements";
 

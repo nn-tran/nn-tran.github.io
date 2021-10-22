@@ -1,14 +1,19 @@
 {
-  "name": "nextjs",
+  "homepage": "https://nn-tran.github.io",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "dev": "next dev",
+    "export": "next export",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
     "@tailwindcss/line-clamp": "^0.2.2",
+    "gh-pages": "^3.2.3",
     "next": "10.x",
     "next-themes": "0.0.15",
     "react": "17.x",

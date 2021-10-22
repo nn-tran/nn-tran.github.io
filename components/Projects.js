@@ -1,7 +1,6 @@
 import React from "react";
 import userData from "@constants/data";
 import { Title, Body } from "./Elements";
-import Image from "next/image";
 
 export default function Projects() {
   return (
@@ -29,10 +28,9 @@ const ProjectCard = (props) => {
     <div className="h-36 flex flex-row space-x-4 md:mx-2 mt-4 py-4">
       <a href={props.link} className="h-32 rounded-lg">
         <div className="h-32 w-32 relative">
-          <Image
+          <img
             src={props.imgUrl}
-            layout="fill"
-            className="object-cover rounded-lg"
+            className="object-cover rounded-lg h-32 w-32"
           />
         </div>
       </a>
