@@ -4,10 +4,10 @@ const userData = {
   email: "mailto:nguyen.ntran.98@gmail.com",
   projects: [
     {
-      title: "QuidditchSim",
-      link: "https://github.com/nn-tran/QuidditchSim",
-      imgUrl: "https://raw.githubusercontent.com/nn-tran/QuidditchSim/master/demo.gif",
-      description: "This is a Unity demo. Despite the name, it's more of a cats and mouse simulation. This was part of my studies related to swarm intelligence.",
+      title: "auto-crossbow",
+      link: "https://github.com/nn-tran/auto-crossbow",
+      imgUrl: "https://staticdelivery.nexusmods.com/mods/1704/images/59012/59012-1637891078-1468322665.png",
+      description: "My lastest game mod written in TypeScript, utilizing animation hooks.",
     },
     {
       title: "battleship",
@@ -24,7 +24,7 @@ const userData = {
   ],
 
   bio: [  
-    `I'm an aspiring full-stack developer. I enjoy writing software and solving puzzles.`,
+    `I'm an aspiring full-stack developer. I enjoy writing software, playing and altering games, and solving puzzles.`,
   ],
 
   about: [
@@ -38,7 +38,6 @@ const userData = {
       title: "Notable Courses",
       text: [
         `Artificial Intelligence`,
-        `Emergent Computing`,
         `Data Base Management Systems`,,
         `Principles of Operating Systems`,
         `Computer Networks`,
