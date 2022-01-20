@@ -4,9 +4,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "deploy": "touch ./out/.nojekyll && gh-pages -b master -d out -t true",
+    "deploy": "gh-pages -b master -d out -t true",
     "dev": "next dev",
-    "export": "next export",
+    "export": "next export && touch ./out/.nojekyll",
     "build": "next build",
     "start": "next start"
   },
