@@ -17,9 +17,9 @@ const userData = {
     },
     {
       title: "chess",
-      link: "https://github.com/nn-tran/chess",
+      link: "https://github.com/nn-tran/chess-react-hook",
       imgUrl: "https://raw.githubusercontent.com/nn-tran/chess/master/screenshot.png",
-      description: "A chess board done in React.js. Clicking on a piece shows available legal moves for that piece. Threefold repetition is implemented using a modified Zobrist hashing function, using 2x32-bit seeds.",
+      description: "A chess board done in React.js, using React hooks and Typescript. Clicking on a piece shows available legal moves for that piece. Threefold repetition is implemented using a modified Zobrist hashing function, using 2x32-bit seeds.",
     },
   ],
 
@@ -29,9 +29,15 @@ const userData = {
 
   about: [
     {
+      title: "Experience",
+      text: [
+        `I'm currently working at TMA Solutions, a software solutions company.`,
+      ]
+    },
+    {
       title: "Education",
       text: [
-        `I just graduated from the University of Calgary with a BSc in Computer Science.`,
+        `I'm a graduate from the University of Calgary, with a BSc in Computer Science.`,
       ]
     },
     {
@@ -49,27 +55,16 @@ const userData = {
       className:"flex flex-row flex-wrap text-black font-mono items-center -mx-2",
       subclassName: "rounded-md py-2 px-4 bg-yellow-500 m-2",
       text: [
-        `Java`,
-        `C++`,
-        `C#`,
-        `Python`,
-        `Javascript`,
+        `JavaScript`,
+        `TypeScript`,
         `React`,
         `Tailwind CSS`,
         `Git`,
-        `PostgreSQL`,
-        `Unity`,
+        `SQL`,
+        `C#`,
       ]
     },
 
-  ],
-
-  education: [
-
-  ],
-
-  skills: [
-    
   ],
   resumeUrl:
     "",

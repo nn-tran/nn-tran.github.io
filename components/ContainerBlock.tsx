@@ -1,17 +1,16 @@
-import React from "react";
-import Head from "next/head";
-import { useRouter } from "next/router";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+import React from "react"
+import Head from "next/head"
+import { useRouter } from "next/router"
+import Navbar from "./Navbar"
+import Footer from "./Footer"
 
-export default function ContainerBlock({ children, ...customMeta }) {
-  const router = useRouter();
+export default function ContainerBlock({ children, ...customMeta }: {children: React.ReactNode, title: string, description?: string, image?: string}) {
+  const router = useRouter()
 
   const meta = {
-    title: "Nguyen Tran",
     type: "website",
     ...customMeta,
-  };
+  }
   return (
     <div>
       <Head>
@@ -31,7 +30,6 @@ export default function ContainerBlock({ children, ...customMeta }) {
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
-
       </Head>
       <main className="bg-yellow-50 dark:bg-gray-800 text-yellow-900 dark:text-yellow-100 w-full min-h-screen">
         <Navbar />
@@ -39,5 +37,5 @@ export default function ContainerBlock({ children, ...customMeta }) {
         <Footer />
       </main>
     </div>
-  );
+  )
 }
