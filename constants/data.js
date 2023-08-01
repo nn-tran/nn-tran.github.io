@@ -24,7 +24,7 @@ const userData = {
   ],
 
   bio: [  
-    `I'm an aspiring full-stack developer. I enjoy writing software, playing and altering games, and solving puzzles.`,
+    `I'm a full-stack developer. I enjoy writing software, playing and altering games, and solving puzzles.`,
   ],
 
   about: [
